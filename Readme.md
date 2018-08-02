@@ -95,6 +95,7 @@ These settings are used only when bundling `osx` packages.
   this config field, you may also want have your `build.rs` script emit
   `cargo:rustc-env=MACOSX_DEPLOYMENT_TARGET=10.11` (or whatever version number
   you want) to ensure that the compiled binary has the same minimum version.
+* `osx_no_dock`: Disable creation of a dock icon. Required for tray-only apps.
 
 ### Example `Cargo.toml`:
 
